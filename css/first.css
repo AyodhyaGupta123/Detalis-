@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(114, 204, 199);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    padding: 25px;
+    border-radius: 8px;
+    height: 450px;
+    width: 320px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#card img{
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top;
+    height: 65%;
+    width: 100%;
+}
+#card img:hover{
+    height: 68%;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    background-color: aqua;
+    
+}
+#card h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#card h5{
+    font-size: 25px;
+    color:red;
+    padding: 5px;
+}
+
+#card button{
+    margin: 10px;
+    font-weight: 600;
+    background-color: rgba(22, 95, 97, 0.995);
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#card #remove{
+   background-color: #dadada;
+   color: #000;
+   font-weight: 700;
+   padding: 8px 20px;
+   font-size: 16px;
+   border-radius: 5px;
+}

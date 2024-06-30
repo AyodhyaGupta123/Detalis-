@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IBM Plex Sans;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    min-height: 100%;
+    width: 100%;
+    background-color: lavender;
+    display: flex;
+    padding: 60px;
+    align-items: flex-start;
+    gap: 50px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 420px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover{
+    scale: .9;
+    transition: all ease 0.5s;
+
+}
+
+.card .header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 20px;
+}
+.card .header i{
+    font-size: 28px;
+    color: #747474;
+}
+.card img{
+    height: 185px;
+    width: 185px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+.info{
+    padding: 10px 40px;
+}
+.card h1{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #3d3d3d;
+}
+.card h3{
+    font-size: 18px;
+    
+    margin-bottom: 22px;
+    font-weight: 400;
+    color: #747474;
+}
+.card .skills{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills h4{
+
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 15px;
+
+    padding: 7px 16px;
+    border: 1px solid #ddd;
+}
+.skills h5{
+
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 15px;
+
+    padding: 7px 18px;
+    background-color:rgb(18, 131, 151) ;
+    color: #fff;
+}
+.card p{
+    font-size: 16px;
+    color: #3d3d3d;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.card button{
+    width: 100%;
+    padding: 25px 0;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #747474;
+    border-top: 1px solid #ddd;
+    transition: all ease 0.5s;
+}
+.card button:hover{
+    background-color: rgb(194, 19, 156);
+    color: #fff;
+    cursor: pointer;
+}
+
+.skills h4:hover{
+    background-color: #51b9d1;
+    cursor: pointer;
+}
